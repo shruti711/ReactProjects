@@ -1,7 +1,7 @@
 function RegComponent(name) {
     console.log('RegComponent', name);
     return (
-        <div>Regular COmponent</div>
+        <div>Regular Component</div>
     )
 }
 

@@ -4,6 +4,7 @@ import RegularComponent from './RegularComponent';
 import MemoComponent from '../FunctionalComponent/ParentComponents';
 import RegComponent from '../FunctionalComponent/RegComponent';
 import State from '../ClassComponents/State';
+import ClassCounter from './ClassCounter';
 
 // If I change ParentComponent with Purecomponents than component will not rerender because ParentComponent 
 // will check there is same value of string 'Shruti' that's why it will not rerender.
@@ -38,15 +39,18 @@ class ParentComponent extends Component {
                     a) Primitive type: a (SC) b return true if the value of a and b are same.
                     b) Complex type: a (SC) b return true if a and b refrence to the same object */}
 
-                {/* <Purecomponents name = {this.state.name}> </Purecomponents>
-                <RegularComponent name={this.state.name}> </RegularComponent> */}
+                <Purecomponents name = {this.state.name}> </Purecomponents>
+                <RegularComponent name={this.state.name}> </RegularComponent>
 
                 {/* PureComponent with memo */}
-                {/* <MemoComponent name={this.state.name}></MemoComponent>
-                <RegComponent name={this.state.name}></RegComponent> */}
+                <MemoComponent name={this.state.name}></MemoComponent>
+                <RegComponent name={this.state.name}></RegComponent>
 
 
                 <State />
+
+                ################## Class Component with LifeCycle ##################
+                <ClassCounter />
 
             </div>
         )

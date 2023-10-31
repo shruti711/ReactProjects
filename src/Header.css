@@ -1,0 +1,18 @@
+.header {
+    background-color: bisque;
+    width: 100%;
+}
+.header a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+.routes {
+    width: 50%;
+    text-align: right;
+}
+
+.icon{
+    width: 49%;
+    text-align: left;
+}

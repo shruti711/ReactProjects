@@ -24,7 +24,7 @@ function ParentComponents() {
             <RegComponent name={name}/> */}
 
             <StateHooks />
-            ***************************
+            ***********Hook counter****************
             <HooksCounter />
             *********
 

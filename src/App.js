@@ -1,14 +1,10 @@
 import './App.css';
-import ParentComponent from './ClassComponents/ParentComponent';
-import ParentComponents from './FunctionalComponent/ParentComponents';
-import Parent from './Udemy/Components/Parent';
+import Header from './Header';
 
 function App() {
   return (
       <div className="App">
-        <ParentComponent />
-        <ParentComponents />
-        <Parent />
+        <Header />
       </div>
   );
 }
